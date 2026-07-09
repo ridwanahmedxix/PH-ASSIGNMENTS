@@ -153,6 +153,7 @@ nav {
   font-size: 18px;
   color: rgb(82, 78, 78);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .cartContainer {
@@ -161,12 +162,71 @@ nav {
   gap: 25px;
   max-width: 1300px;
   margin: auto;
+  color: rgb(74, 69, 69);
 }
 
 .singleCart {
   border: 2px solid black;
-  padding: 20px 15px;
+  padding: 40px 20px;
+  border-radius: 20px;
 }
 .singleCart h5 {
   font-size: 20px;
+  padding: 10px 0px 8px 0px;
+}
+.singleCart h3 {
+  font-size: 44px;
+}
+.singleCartH5 {
+  color: black;
+}
+.singleCart p {
+  font-size: 19px;
+  padding-bottom: 21px;
+}
+.singleCart hr {
+  margin-bottom: 15px;
+}
+.singleCart ul {
+  list-style-position: inside;
+}
+.singleCart ul li {
+  padding: 5px 0px;
+  font-size: 20px;
+}
+.singleCart ul li::marker {
+  color: blue;
+}
+.singleCart2 {
+  background-color: rgb(1, 1, 27);
+  color: white !important;
+}
+.singleCart2H5 {
+  color: white;
+}
+
+.cartBtn {
+  display: block;
+  max-width: 370px;
+  margin: 30px auto 10px auto;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.cartBtn:hover {
+  background-color: rgb(146, 151, 158);
+  border: none;
+}
+.cartBtn1 {
+  border: 2px solid blue;
+  color: blue;
+}
+.cartBtn2 {
+  background-color: blue;
+  color: white;
+  border: none;
 }
