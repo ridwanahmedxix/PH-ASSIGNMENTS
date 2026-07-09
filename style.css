@@ -50,3 +50,48 @@ nav {
 .navBtn button:hover {
   background-color: rgb(88, 25, 205);
 }
+
+/* SECTION 1 CODE START  */
+
+#section1 {
+  background-image:
+    linear-gradient(to right, rgba(255, 0, 0, 0.15), transparent),
+    linear-gradient(to left, rgba(0, 0, 0, 0.25), transparent),
+    linear-gradient(to top, rgba(0, 0, 0, 0.35), transparent),
+    url("./assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+}
+.sec1Parent {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 30px;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+.sec1Text {
+  margin-top: 120px;
+  max-width: 700px;
+}
+.sec1Text h2 {
+  font-size: 70px;
+  font-weight: bold;
+  padding-bottom: 17px;
+}
+.sec1Text p {
+  font-size: 20px;
+  line-height: 26px;
+  color: rgb(211, 198, 198);
+}
+.sec1Btn button {
+  margin-top: 200px;
+  padding: 14px;
+  width: 290px;
+  height: 66px;
+  font-size: 24px;
+}
