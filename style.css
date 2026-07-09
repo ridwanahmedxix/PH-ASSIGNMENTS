@@ -138,3 +138,35 @@ nav {
   font-size: 22px;
   padding: 14px 0px;
 }
+
+/* SECTION 3 CODE START  */
+
+#section3 {
+  padding: 60px 50px;
+}
+#section3 h2 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+#section3 h6 {
+  font-size: 18px;
+  color: rgb(82, 78, 78);
+  text-align: center;
+}
+
+.cartContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.singleCart {
+  border: 2px solid black;
+  padding: 20px 15px;
+}
+.singleCart h5 {
+  font-size: 20px;
+}
