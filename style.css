@@ -93,3 +93,48 @@ nav {
   height: 66px;
   font-size: 24px;
 }
+
+/* SECTION 2 CODE START  */
+
+#section2 {
+  padding: 80px 60px;
+}
+
+#section2 h1 {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0px 50px 0px;
+  font-family: sans-serif;
+}
+.speakerContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.speaker-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+.speaker-card img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+.speaker-info {
+  padding: 20px;
+  font-family: sans-serif;
+}
+.speaker-info small {
+  color: rgb(15, 15, 250);
+  font-weight: bold;
+  padding-bottom: 17px;
+}
+.speaker-info h3 {
+  font-size: 22px;
+  padding: 14px 0px;
+}
