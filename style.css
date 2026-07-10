@@ -379,36 +379,50 @@ nav {
 /* FOOTER SECTION CODE  */
 
 .footer {
-  background: #0f1c2d;
-  padding: 30px 0;
+  background: #0d1625;
+  padding: 45px 0;
 }
 
 .footerContainer {
   width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer p {
+.footerLogo img {
+  width: 145px;
+}
+
+.footerText {
   color: #8f9aad;
-  font-size: 14px;
+  font-size: 20px;
+  margin: 0;
 }
 
 .footerLinks {
   display: flex;
-  gap: 25px;
+  align-items: center;
+  gap: 18px;
 }
 
 .footerLinks a {
-  color: #8f9aad;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 14px;
   transition: 0.3s;
 }
 
 .footerLinks a:hover {
-  color: #ffffff;
+  background: #4f46e5;
+  border-color: #4f46e5;
+  transform: translateY(-3px);
 }
