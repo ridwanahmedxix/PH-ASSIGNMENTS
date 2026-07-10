@@ -84,12 +84,26 @@ nav {
   line-height: 26px;
   color: rgb(211, 198, 198);
 }
+
+.sec1Btn {
+  padding-top: 260px;
+}
 .sec1Btn button {
-  margin-top: 300px;
   padding: 14px;
   width: 290px;
   height: 66px;
   font-size: 24px;
+  border: none;
+  background-color: rgb(51, 51, 232);
+  color: white;
+  font-size: 20px;
+  border-radius: 13px;
+  box-shadow: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.sec1Btn button:hover {
+  background-color: rgb(88, 25, 205);
 }
 
 /* SECTION 2 CODE START  */
