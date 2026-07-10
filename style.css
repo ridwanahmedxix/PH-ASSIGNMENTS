@@ -60,7 +60,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 90vh;
 }
 .sec1Parent {
   color: white;
@@ -85,7 +85,7 @@ nav {
   color: rgb(211, 198, 198);
 }
 .sec1Btn button {
-  margin-top: 150px;
+  margin-top: 300px;
   padding: 14px;
   width: 290px;
   height: 66px;
