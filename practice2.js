@@ -1,17 +1,17 @@
-function isElevatorSafe(weights) {
-  if (!Array.isArray(weights)) {
+function calculateAiCost(tokenUsed) {
+  if (typeof tokenUsed !== "number" || tokenUsed < 0) {
     return "Invalid";
   }
 
-  let totalWeights = 0;
-
-  for (let i = 0; i < weights.length; i++) {
-    totalWeights = totalWeights + weights[i];
+  if (tokenUsed <= 500) {
+    return 0;
   }
 
-  if (totalWeights <= 400) {
-    return true;
-  } else {
-    return false;
-  }
+  let extraTokens = tokenUsed - 500;
+  let extraHundreds = Math.floor(extraTokens / 100);
+  let totalCost = extraHundreds * 5;
+
+  return totalCost;
 }
+
+console.log(calculateAiCost(740));
